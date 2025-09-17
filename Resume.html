@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/Admin/Downloads/vanisha_resume.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanisha Sharma - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            color: #2c2c2c;
+            background: #f8f9fc;
+            min-height: 100vh;
+            padding: 30px;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            border: 1px solid #c5cae9;
+            box-shadow: 0 2px 10px rgba(26, 35, 126, 0.15);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: #1a237e;
+            color: #ffffff;
+            padding: 40px;
+            text-align: center;
+            border-bottom: 2px solid #3949ab;
+        }
+        
+        .name {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+        
+        .title {
+            font-size: 1.1em;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #e8eaf6;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            font-size: 0.9em;
+        }
+        
+        .contact-item {
+            color: #c5cae9;
+        }
+        
+        .content {
+            padding: 40px 50px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            color: #1a237e;
+            margin-bottom: 18px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #3949ab;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .summary {
+            font-size: 1em;
+            text-align: justify;
+            color: #4a4a4a;
+            line-height: 1.6;
+            background: #e8eaf6;
+            padding: 25px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+        }
+        
+        .education-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .education-item {
+            background: #e8eaf6;
+            padding: 25px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+        }
+        
+        .degree {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c2c2c;
+            margin-bottom: 8px;
+        }
+        
+        .institution {
+            color: #6a6a6a;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+        
+        .cgpa {
+            color: #3949ab;
+            font-weight: 500;
+            font-size: 1em;
+        }
+        
+        .publication {
+            background: #e8eaf6;
+            padding: 20px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+            margin-bottom: 15px;
+        }
+        
+        .pub-authors {
+            color: #5a5a5a;
+            margin-bottom: 8px;
+        }
+        
+        .pub-link {
+            color: #3f51b5;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        
+        .pub-link:hover {
+            text-decoration: underline;
+        }
+        
+        .interests {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .interest-item {
+            background: #e8eaf6;
+            padding: 18px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+        }
+        
+        .experience-item {
+            background: #e8eaf6;
+            margin-bottom: 30px;
+            padding: 30px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+        }
+        
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .exp-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2c2c2c;
+        }
+        
+        .exp-date {
+            background: #c5cae9;
+            color: #1a237e;
+            padding: 6px 12px;
+            font-size: 0.9em;
+            font-weight: 500;
+            border: 1px solid #9fa8da;
+        }
+        
+        .exp-project {
+            font-style: italic;
+            color: #6a6a6a;
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+        
+        .exp-details {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .exp-details li {
+            margin-bottom: 10px;
+            padding-left: 15px;
+            position: relative;
+            color: #4a4a4a;
+            line-height: 1.5;
+        }
+        
+        .exp-details li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #3949ab;
+            font-size: 1em;
+        }
+        
+        .leadership-item {
+            background: #e8eaf6;
+            padding: 18px;
+            margin-bottom: 12px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+        }
+        
+        .leadership-title {
+            font-weight: 500;
+            color: #3c3c3c;
+            margin-bottom: 5px;
+        }
+        
+        .leadership-date {
+            color: #6a6a6a;
+            font-size: 0.9em;
+        }
+        
+        .references {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .reference-item {
+            background: #e8eaf6;
+            padding: 25px;
+            border: 1px solid #c5cae9;
+            border-left: 3px solid #1a237e;
+        }
+        
+        .ref-name {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c2c2c;
+            margin-bottom: 8px;
+        }
+        
+        .ref-affiliation {
+            color: #5a5a5a;
+            margin-bottom: 8px;
+        }
+        
+        .ref-email {
+            color: #6a6a6a;
+            font-weight: 400;
+        }
+        
+        @media (max-width: 768px) {
+            .education-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .exp-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .name {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 30px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1 class="name">VANISHA SHARMA</h1>
+                <p class="title">M.Sc. Biotechnology | Dissertation Trainee at CSIR-CDRI</p>
+                <div class="contact-info">
+                    <div class="contact-item">+91-9119222880</div>
+                    <div class="contact-item">vanisha0209@gmail.com</div>
+                    <div class="contact-item"><a href="https://linkedin.com/in/vanisha-sharma" target="_blank" style="color: #c5cae9; text-decoration: none;">LinkedIn Profile</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Professional Summary</h2>
+                <div class="summary">
+                    Biotechnology researcher with a strong foundation in reproductive disease biology (endometriosis, pregnancy-related disorders) and hands-on expertise in 3D spheroids, co-cultures, and molecular assays. My unique strength is bringing clinical and biological depth into engineering-heavy environments, enabling me to frame translational questions for organ-on-chip platforms. I am motivated to integrate microfluidics, biomaterials, and high-throughput systems with reproductive models to uncover maternal–fetal interactions and early developmental challenges.
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3 class="degree">Post Graduation</h3>
+                        <p class="institution">Manipal University, Jaipur (2023-2025)</p>
+                        <p>Master of Science in Biotechnology</p>
+                        <p class="cgpa">CGPA – 7.91/10</p>
+                    </div>
+                    <div class="education-item">
+                        <h3 class="degree">Graduation</h3>
+                        <p class="institution">The IIS (deemed to be) UNIVERSITY (2019-2023)</p>
+                        <p>Integrated B.Sc. -B.Ed. Life Science and Education</p>
+                        <p class="cgpa">CGPA- 8.29/10</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Publications</h2>
+                <div class="publication">
+                    <p class="pub-authors">Gupta, S., Tripathi, R., Kawale, A. K., Sarkar, S., Singh, A., Verma, R. K., Sankhwar, P. L., <strong>Sharma, V.</strong>, &amp; Jha, R. K. (2025).</p>
+                    <p>PARP-2 acts on ILK signalling, and pharmacological targeting of PARP-2 ameliorate endometriosis in a mouse model. <em>Biochemical and biophysical research communications</em>, 754, 151509.</p>
+                    <p><a href="https://doi.org/10.1016/j.bbrc.2025.151509" class="pub-link" target="_blank">https://doi.org/10.1016/j.bbrc.2025.151509</a></p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Research Interests</h2>
+                <div class="interests">
+                    <div class="interest-item">Organ-on-chip for reproductive biology</div>
+                    <div class="interest-item">Maternal–fetal interactions &amp; early embryogenesis</div>
+                    <div class="interest-item">Microphysiological models for fertility &amp; pregnancy care</div>
+                    <div class="interest-item">Spheroid/organoid engineering for translational disease modelling</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Research Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="exp-title">Dissertation Intern, Skill Development Programme – CSIR-CDRI, Lucknow</h3>
+                        </div>
+                        <div class="exp-date">Jan 2025 – June 2025</div>
+                    </div>
+                    <p class="exp-project">"Functional Analysis of RhoG/RhoH Overexpression and ILK–ILKAP Axis in Endometriotic Cells"</p>
+                    <ul class="exp-details">
+                        <li>Developed an in vitro overexpression system in IHECs to study RhoG/RhoH functions in cell movement and inflammation pathways.</li>
+                        <li>Performed cloning, RNA isolation, gene expression profiling, and Western blotting to evaluate ILK/ILKAP signaling changes.</li>
+                        <li>Established experimental workflows with scope for future validation and translational research.</li>
+                        <li>Linked chemical modulation with endometrial cell signaling responses.</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="exp-title">Summer Training, Skill Development Programme - CSIR CDRI, Lucknow</h3>
+                        </div>
+                        <div class="exp-date">May 2024 – Sept 2024</div>
+                    </div>
+                    <p class="exp-project">"Role of PARP-2 in Regulating Inflammatory Chemokines in Endometriotic Cells"</p>
+                    <ul class="exp-details">
+                        <li>Investigated PARP-2 inhibition (UPF1069) in IHECs using RNA extraction, cDNA synthesis, qPCR, and Western blotting.</li>
+                        <li>Engineered 3D spheroid and co-culture models that revealed differential chemokine responses to PARP-2 inhibition and Danazol treatment.</li>
+                        <li>Conducted compound exposure assays (chloroquine, ILK modulation) to study downstream inflammatory signaling.</li>
+                        <li>Contributed to cell culture maintenance, troubleshooting, and internal presentations.</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="exp-title">Hands-on training on Fundamentals of Animal handling at CSIR CDRI, Lucknow</h3>
+                        </div>
+                        <div class="exp-date">Sept 2024</div>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Trained in ethical handling, dosing, and termination in rodents.</li>
+                        <li>Assisted in developing DHEA-induced PCOS and surgical endometriosis models.</li>
+                        <li>Performed ovarian tissue collection for histological and molecular analysis.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Leadership &amp; Communication Activities</h2>
+                
+                <div class="leadership-item">
+                    <div class="leadership-title">Coordinated as Core Committee Member, National Science Day, Manipal University Jaipur</div>
+                    <div class="leadership-date">Feb 2024</div>
+                </div>
+                
+                <div class="leadership-item">
+                    <div class="leadership-title">Supported as a Stage Committee Member, RAMSACT Conference, Manipal University Jaipur</div>
+                    <div class="leadership-date">April 2024</div>
+                </div>
+                
+                <div class="leadership-item">
+                    <div class="leadership-title">Edited departmental newsletter as Student Editor, Bioscience Patrika</div>
+                    <div class="leadership-date">Jun 2024 – Dec 2024</div>
+                </div>
+                
+                <div class="leadership-item">
+                    <div class="leadership-title">Anchored the 74th CSIR-CDRI Annual Day</div>
+                    <div class="leadership-date">Feb 2025</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">References</h2>
+                <div class="references">
+                    <div class="reference-item">
+                        <h3 class="ref-name">Dr Sandeep K. Srivastava</h3>
+                        <p class="ref-affiliation">Associate Professor and Head at Manipal University, Jaipur</p>
+                        <p class="ref-email">sandeepkumar.srivastava@jaipur.manipal.edu</p>
+                    </div>
+                    
+                    <div class="reference-item">
+                        <h3 class="ref-name">Dr Mousumi Debnath</h3>
+                        <p class="ref-affiliation">Associate Professor at Manipal University, Jaipur</p>
+                        <p class="ref-email">mousumi.debnath@jaipur.manipal.edu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body></html>
