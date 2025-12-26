@@ -121,7 +121,7 @@ Together, these studies create a cohesive view of how PARP-2 signaling, RhoG/Rho
   </div>
 
   <div class="text-col">
-    <h3>🔬 1. Bioinformatics Project: PARP-2 Inhibition in Endometriosis</h3>
+    <h3> 1. (a) Bioinformatics Project: PARP-2 Inhibition in Endometriosis</h3>
     <ul class="bullets">
       <li><strong>Overview:</strong> Differential Gene Expression and Pathway Analysis (GSE7305) using R/Bioconductor tools.</li>
       <li><strong>Validation:</strong> PCA and boxplots confirmed robust separation between treated and control groups.</li>
@@ -132,31 +132,32 @@ Together, these studies create a cohesive view of how PARP-2 signaling, RhoG/Rho
   </div>
 </div>
 
-<!-- NETWORK BIOLOGY PROJECT -->
+<!-- 1. (b) INTEGRATED NETWORK ANALYSIS OF ENDOMETRIOSIS -->
 <div class="sample">
   <div class="image-col">
     <div class="swiper" id="swiper6">
-      <img src="07_Visualization/Figure1_PPI_Overview.png" class="active" alt="PPI Network Overview">
-      <img src="07_Visualization/Figure2_Epithelial_Module.png" alt="Epithelial Module">
-      <img src="07_Visualization/Figure3_Mesenchymal_Module.png" alt="Mesenchymal Module">
-      <img src="07_Visualization/Figure4_CrossInteraction_Module.png" alt="Cross-Talk Module">
+      <img src="images/Figure1_PPI_Overview.png" class="active" alt="PPI Network Overview">
+      <img src="images/Figure2_Epithelial_Module.png" alt="Epithelial Module">
+      <img src="images/Figure3_Mesenchymal_Module.png" alt="Mesenchymal Module">
+      <img src="images/Figure4_CrossInteraction_Module.png" alt="Cross-Interaction Module">
       <span class="prev" onclick="prevSlide(6)">❮</span>
       <span class="next" onclick="nextSlide(6)">❯</span>
     </div>
   </div>
 
   <div class="text-col">
-    <h3>🧠 Integrated Network Analysis of Endometriosis</h3>
+    <h3>Integrated Network Analysis of Endometriosis</h3>
     <ul class="bullets">
-      <li><strong>Design:</strong> Systems-level protein–protein interaction (PPI) network analysis of upregulated endometriosis-associated genes.</li>
-      <li><strong>Network Construction:</strong> STRING-derived high-confidence interactions visualised and analysed in Cytoscape.</li>
-      <li><strong>Module Detection:</strong> MCODE clustering revealed distinct epithelial junction and developmental/EMT-associated subnetworks.</li>
-      <li><strong>Centrality Analysis:</strong> Degree, betweenness, and eigenvector metrics identified hub and bridge regulators.</li>
-      <li><strong>Key Insight:</strong> PAX2 emerged as a master hub linking epithelial organisation and EMT-like programmes.</li>
-      <li><strong>Novelty:</strong> Several biologically central genes showed minimal prior endometriosis-specific literature, highlighting translational blind spots.</li>
+      <li>Constructed a high-confidence protein–protein interaction network of upregulated endometriosis-associated genes using STRING.</li>
+      <li>Visualised and analysed networks in Cytoscape with module detection using MCODE.</li>
+      <li>Identified a dense epithelial junction module enriched for CLDN7, RAB25, ESRP1, and PRSS8.</li>
+      <li>Detected a developmental / EMT-related transcriptional module comprising MSX1, DLX5, and TWIST2.</li>
+      <li>Cross-interaction analysis revealed bridge nodes linking epithelial organisation and EMT-like programmes.</li>
+      <li>Network centrality metrics highlighted PAX2 as a hub regulator with limited disease-specific literature.</li>
     </ul>
   </div>
 </div>
+
 
   
 <!-- 2. 3D SPHEROIDS -->
@@ -272,7 +273,7 @@ Together, these studies create a cohesive view of how PARP-2 signaling, RhoG/Rho
 </section>
 
 <script>
-const slides = {0:0,1:0,2:0,3:0,4:0,5:0};
+const slides = {0:0,1:0,2:0,3:0,4:0,5:0,6:0};
 
 function showSlide(id,i){
   const swiper=document.getElementById(`swiper${id}`);
