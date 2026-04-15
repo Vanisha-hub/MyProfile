@@ -1,16 +1,15 @@
 # Vanisha Sharma - Portfolio Website
 
-## 🧬 Biotechnology | Molecular Biology | Translational Research
+## Biotechnology | Molecular Biology | Translational Research
 
 Welcome to my personal portfolio website showcasing my research work, skills, and academic achievements in biotechnology and molecular biology.
 
-## 🌐 Live Website
+## Live Website
 
 Visit my portfolio: [https://moleculemaestro.github.io/MyPortfolio/](https://moleculemaestro.github.io/MyPortfolio/)
 
-## 📁 Repository Structure
+## Repository Structure
 
-```
 MyPortfolio/
 │
 ├── index.html                    # Homepage with introduction and navigation
@@ -18,19 +17,18 @@ MyPortfolio/
 ├── Research Portfolio.html      # Research work samples and projects
 ├── Resume.html                  # Detailed CV and professional background
 └── README.md                    # This file
-```
 
-## 🎯 About This Portfolio
+## About This Portfolio
 
 I am a biotechnology postgraduate with hands-on expertise in molecular biology, cell culture, and translational disease models. My research experience spans from bench-based techniques to in vivo animal models for PCOS and endometriosis.
 
-### 🔬 Research Focus Areas
+### Research Focus Areas
 - **Reproductive Disorders**: Endometriosis and PCOS research
 - **Molecular Biology**: Protein signaling pathways and gene expression
 - **Translational Models**: Animal models and cell culture systems
 - **Data Analysis**: R programming for bioinformatics and statistical analysis
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 ### Laboratory Techniques
 - RNA isolation, cDNA preparation, RT-PCR
@@ -49,7 +47,7 @@ I am a biotechnology postgraduate with hands-on expertise in molecular biology, 
 - GraphPad Prism, ImageJ, BioRender
 - MS Office Suite, Canva
 
-## 📊 Portfolio Sections
+## Portfolio Sections
 
 ### 1. **Homepage** (`index.html`)
 - Introduction and overview
@@ -71,66 +69,30 @@ I am a biotechnology postgraduate with hands-on expertise in molecular biology, 
 - Detailed education and experience
 - Publications and achievements
 
-## 🚀 Technologies Used
-
-- **HTML5** - Structure and content
-- **CSS3** - Styling and responsive design
-- **JavaScript** - Interactive elements and navigation
-- **GitHub Pages** - Hosting and deployment
-
-## 📱 Features
-
-- ✅ **Responsive Design** - Works on all devices
-- ✅ **Professional Styling** - Clean and academic appearance
-- ✅ **Easy Navigation** - Clear links between sections
-- ✅ **Fast Loading** - Optimized for performance
-- ✅ **SEO Friendly** - Proper meta tags and structure
-
-## 🎨 Design Philosophy
-
-The website follows a professional academic design with:
-- **Color Scheme**: Deep blue (#1a237e) representing trust and professionalism
-- **Typography**: Clean, readable fonts suitable for academic content
-- **Layout**: Structured and organized presentation of information
-- **Accessibility**: Clear contrast and semantic HTML structure
-
-## 📈 Recent Updates
-
-- ✅ Fixed navigation links for GitHub Pages compatibility
-- ✅ Added responsive design for mobile devices
-- ✅ Updated contact information and social links
-- ✅ Optimized loading performance
-
-## 📞 Contact Information
+## Contact Information
 
 - **Email**: [vanisha.sharma@email.com](mailto:vanisha.sharma@email.com)
 - **LinkedIn**: [linkedin.com/in/vanisha-sharma-2869a6230](https://www.linkedin.com/in/vanisha-sharma-2869a6230/)
 - **GitHub**: [github.com/MoleculeMaestro](https://github.com/MoleculeMaestro)
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal portfolio website. If you notice any issues or have suggestions for improvements, please feel free to:
 1. Open an issue
 2. Submit a pull request
 3. Contact me directly
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Thanks to the biotechnology research community for inspiration
 - GitHub Pages for free hosting
 - Various open-source tools and libraries used in development
-
----
 
 **© 2024 Vanisha Sharma**  
 *Biotechnology Research | Molecular Biology | Translational Science*
 
 ---
 
-### 🔄 Last Updated: December 2024
+### Last Updated: December 2024
 
 *This README will be updated as the portfolio evolves and new projects are added.*
